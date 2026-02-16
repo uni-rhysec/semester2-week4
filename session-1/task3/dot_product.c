@@ -23,6 +23,15 @@
     print your final answer
     */
 
+   for (int k=0; k<n; k++) {
+      a[k] = 2*k;
+      b[k] = 2*k;
+      printf("%d  ");
+      
+   }
+
+
+
     // explicit deallocation of heap memory before exit */
     free(a);
     free(b);

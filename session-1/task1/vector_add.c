@@ -15,5 +15,13 @@
     Store your answer in array c
     Print your final answer
     */
+
+   for (int k=0; k<5; k++) {
+      float sum = a[k] + b[k];
+      c[k] = sum;
+      printf("%.1f\n",sum);
+   } 
+   //printf("%f",c);
+
     return 0;
  }

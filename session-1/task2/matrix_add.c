@@ -16,5 +16,18 @@
     Store your answer in matrix c
     Print your final answer
     */
+
+   for (int i=0; i<4; i++) {
+      for (int j=0; j<4; j++) {
+         a[i][j] = 1;
+         b[i][j] = 1;
+         float sum = a[i][j] + b[i][j];
+         c[i][j] = sum;
+
+         printf("%.1f  ",c[i][j]);
+      }
+      printf("\n");
+   }
+
     return 0;
  }
